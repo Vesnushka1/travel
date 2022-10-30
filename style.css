@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mulish:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap');
+body {
+    margin: 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.container1__img {
+    background: url(img/thousand-01\ 1.png);
+    width: 687px;
+    height: 654px;
+    margin-left: 147px;
+    margin-top: 72px;
+}
+
+.container1__absolute2 {
+    background: url(img/element.svg);
+    width: 26px;
+    height: 26px;
+}
+
+.container1__absolute3 {
+    background: url(img/element2.svg);
+    width: 20px;
+    height: 20px;
+}
+
+.container1__absolute1 {
+    background: url(img/element3.svg);
+}
+
+.header1__logo {
+    background: url(img/logo.svg);
+    height: 41px;
+    width: 41px;
+}
+
+.nav1__a {
+    text-decoration: none;
+    color: #B8BECD;
+    margin-left: 35px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.nav1__a1 {
+    color: #202336;
+}
+
+.container1__header1 {
+    display: flex;
+    align-items: center;
+}
+
+.header1__login {
+    width: 132px;
+    height: 44px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FB8F1D;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    background: transparent;
+    margin-left: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 60px;
+}
+
+.container1__content1 {
+    margin-top: 100px;
+}
+
+.header1__register {
+    width: 132px;
+    height: 44px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    margin-left: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 60px;
+    border: none;
+    background: #FB8F1D;
+}
+
+.nav1 {
+    margin-left: 512px;
+}
+
+.content1__h2 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    /* or 125% */
+    color: #202336;
+    width: 356px;
+}
+
+.content1__p1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+}
+
+.content1__line {
+    width: 32px;
+    height: 2px;
+    background: #202336;
+}
+
+.inputs__inp {
+    width: 190px;
+    height: 52px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #4A4C53;
+    padding-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 35px;
+}
+
+.inputs__inp-location {
+    margin-top: 48px;
+}
+
+.inputs__inp-activity {
+    margin-top: 48px;
+}
+
+.content1__btn-explore {
+    background: #FB8F1D;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 180px;
+    height: 52px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    outline: none;
+    border: none;
+}
+
+.inp__strelka {
+    background: url(img/Frame.svg);
+    width: 10px;
+    height: 6px;
+}
+
+.inp__strelka1 {
+    margin-left: 81px;
+}
+
+.inp__strelka2 {
+    margin-left: 89px;
+}
+
+.inp__strelka3 {
+    margin-left: 100px;
+}
+
+.inp__strelka4 {
+    margin-left: 110px;
+}
+
+.container1__img-absoute1 {
+    background: url(img/element2.svg);
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    position: absolute;
+    /* margin-top: 488px;
+    margin-left: 93px; */
+    top: 408px;
+    left: 33px;
+}
+
+.container1__img-absoute2 {
+    background: url(img/element.svg);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 777px;
+    left: 745px;
+}
+
+.container1__img-absoute3 {
+    background: url(img/element3.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    top: 214px;
+    left: 670px;
+    position: absolute;
+}
+
+.container2__img-absoute2 {
+    background: url(img/element.svg);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 1380px;
+    left: 1442px;
+}
+
+.container3__img-absoute2 {
+    background: url(img/element.svg);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 1800px;
+    left: 1442px;
+}
+
+.container3__img-absoute2-1 {
+    background: url(img/element.svg);
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 2300px;
+    left: 642px;
+}
+
+.container2__img-absoute3 {
+    background: url(img/element3.svg);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    position: absolute;
+    transform: rotate(7.49deg);
+    top: 1000px;
+    left: 1039px;
+}
+
+.container2 {
+    margin-top: 257px;
+    margin-bottom: 232px;
+}
+
+.container2__img {
+    background: url(img/Thousand-02\ 1.png);
+    width: 659px;
+    height: 534px;
+    margin-left: -100px;
+}
+
+.container2__content1__h3 {
+    width: 481px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.container2__content1__p1 {
+    width: 450px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.container2__content1__btn-learn-more {
+    width: 164px;
+    height: 48px;
+    background: #FB8F1D;
+    border-radius: 8px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    width: 180px;
+    height: 52px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 47px;
+    outline: none;
+    border: none;
+}
+
+.container2__content1 {
+    margin-left: 54px;
+}
+
+.container3__content1__photo1 {
+    background: url(img/image\ 1.png);
+    width: 261px;
+    height: 332px;
+}
+
+.container3__content1__photo2 {
+    background: url(img/img2.png);
+    width: 261px;
+    height: 332px;
+}
+
+.container3__content1__photo3 {
+    background: url(img/img3.png);
+    width: 261px;
+    height: 332px;
+}
+
+.container3__content1__photo4 {
+    background: url(img/img4.png);
+    width: 261px;
+    height: 332px;
+}
+
+.container3__content1__photo {
+    margin-left: 25px;
+}
+
+.container3__h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    width: 481px;
+    color: #000000;
+}
+
+.container3__content1__p-bold {
+    margin: 0;
+    margin-top: -40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #042521;
+}
+
+.container3__content1__p-not-bold {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: #80918E;
+}
+
+.container3__btn {
+    width: 132px;
+    height: 44px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FB8F1D;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    background: transparent;
+    margin-top: 77px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 60px;
+    margin-left: 494px;
+}
